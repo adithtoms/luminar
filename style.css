@@ -23,20 +23,19 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-  body{
-    height: 1000px
-  }
+ 
   .bg{
     height: 530px;
   }
-  .heading{
-    background-position: center;
-    height: 460px;
-    margin-left: 130px;
+  .headtop{
+    height: 35px;
+    background-color: #5e068a;
+    color: white;
+    padding-top:8px ;
+    font-size: small;
    
-    
   }
-  
+   
   .btn1{
     background-color: #51167c;
     color: white;
@@ -71,7 +70,7 @@
    color:white;
   }
   .card1{
-    width: 350px;
+    width: 355px;
   }
   .card2{
     height: 300px;
@@ -95,4 +94,47 @@ box-shadow:  0 0 1em rgb(119, 118, 118);;
   .btn2:hover{
     background-color: #5e068a;
     color: white;
+  }
+  .heading{
+    background-position: center;
+    height: 460px;
+    margin-left: 130px;
+ 
+  }
+  .imghead{
+    font-size: 62px;
+    margin-bottom: 35px;
+  }
+  .imgp{
+    margin-bottom: 35px;
+  }
+  @media((max-width:1330px)and (min-width:1040px) ){
+    .imghead{
+      font-size: 50px;
+    }
+  }
+  @media((max-width:1040px)and (min-width:700px) ){
+    .imghead{
+      font-size: 30px;
+    }
+  }
+ 
+  @media(max-width:700px){
+    .imghead{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .imgp{
+      font-size: smaller;
+      margin-bottom: 10px;
+    }
+    .heading{
+      margin-left: 1px;
+    }
+    .para{
+      line-height: 25px;
+    }
+    .headtop{
+      height: 70px;
+    }
   }
